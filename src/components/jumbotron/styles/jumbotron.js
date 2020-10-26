@@ -14,9 +14,12 @@ export const Inner = styled.div`
   flex-direction: ${({ direction }) => direction};
   justify-content: space-between;
   max-width: 1100px;
+  margin: auto;
+  width: 100%;
 
   @media (max-width: 1000px) {
     flex-direction: column;
+    margin: 10px;
   }
 `;
 
